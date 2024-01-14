@@ -1,0 +1,37 @@
+.previewBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    min-height: 600px;
+}
+
+.sheetTitle {
+    width: 100%;
+    color: darkolivegreen;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+thead {
+    margin: 15px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media print {
+    .projectSheet {
+        border: none;
+    }
+    .sheetTitle {
+        font-size: 30px;
+        border: none;
+    }
+}

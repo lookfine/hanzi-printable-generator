@@ -1,0 +1,33 @@
+.inputChar {
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card table, .card th, .card td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+@media print {
+    td {
+        width: 60px;
+        height: 60px;
+        font-size: 45px;
+    }
+    .pagebreak { page-break-before: always; } 
+    
+}

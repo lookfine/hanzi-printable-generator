@@ -1,0 +1,96 @@
+.sections {
+    display: flex;
+    margin-top: 200px;
+}
+
+.content {
+    flex:9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.introContainer {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    flex: 6;
+    
+}
+
+.projectContainer {
+    width: 100%;
+}
+
+.projectTitle {
+    color: #606060;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+
+.projectDesc {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: gray;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.projectContainer {
+    margin: 25px;
+    display: flex;
+}
+
+.left {
+    flex: 7;
+}
+
+.right {
+    flex: 5;
+}
+
+.projectSheet{
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 1px solid darkslategrey;
+}
+
+
+.inputItem {
+    margin: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputTitle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.selectedMenu {
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;;
+}
+
+.button {
+    background-color: #606060;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+

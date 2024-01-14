@@ -1,0 +1,57 @@
+.sheetContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+}
+
+.medium_box {
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.medium_text {
+    font-size: 150px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.small_box {
+    height: 125px;
+    width: 125px;
+    border: 1px solid black;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small_text {
+    font-size: 70px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+@media print {
+    .medium_box {
+        width: 300px;
+        height: 300px;
+        
+    }
+    .medium_text {
+        font-size: 200px;
+    }
+    .small_box {
+        width: 200px;
+        height: 200px;
+        page-break-inside: avoid;
+    }
+    .small_text {
+        font-size: 120px;
+    }
+}
